@@ -1,0 +1,9 @@
+/* Add this to your styles.css file */
+@keyframes busy {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.busy-indicator {
+  animation: busy 2s linear infinite;
+}
